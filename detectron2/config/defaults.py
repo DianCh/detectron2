@@ -80,6 +80,9 @@ _C.INPUT.FORMAT = "BGR"
 # Mask R-CNN supports either "polygon" or "bitmask" as ground truth.
 _C.INPUT.MASK_FORMAT = "polygon"  # alternative: "bitmask"
 
+_C.INPUT.MASK_MARGIN = None
+_C.INPUT.KEEP_RATIO = 1.0
+_C.INPUT.REGION_BOX_COUNT = -1
 
 # -----------------------------------------------------------------------------
 # Dataset
